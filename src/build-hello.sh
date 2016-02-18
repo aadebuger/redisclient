@@ -1,0 +1,1 @@
+g++ -I/usr/local/Cellar/libev/4.22/include/ -I/usr/local/include -L/usr/local/Cellar/hiredis/0.13.3/lib  -L/usr/local/Cellar/libev/4.22/lib  hello.cpp -L/usr/local/lib64/ -o hello -std=c++11 -lredox -lev -lhiredis
